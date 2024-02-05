@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrusel</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <div class="contenedor-carrusel">
+    <div class="carrusel">
+      <button class="flecha flecha-izquierda" onclick="desplazar(-1)" disabled>&#10094;</button>
+      <div class="contenedor-objetos" id="contenedor-objetos">
+        <div class="objeto">
+          <img src="imagenes/imagen1.png" alt="Imagen 1">
+          <div class="info">
+            <h2>Título 1</h2>
+            <p>Descripción</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+        <div class="objeto">
+          <img src="imagenes/imagen2.png" alt="Imagen 2">
+          <div class="info">
+            <h2>Título 2</h2>
+            <p>Descripción</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+        <div class="objeto">
+          <img src="imagenes/imagen3.png" alt="Imagen 3">
+          <div class="info">
+            <h2>Título 3</h2>
+            <p>Descripción</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+        <div class="objeto">
+          <img src="imagenes/imagen4.png" alt="Imagen 4">
+          <div class="info">
+            <h2>Título 4</h2>
+            <p>Descripción</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+        <div class="objeto">
+          <img src="imagenes/imagen5.png" alt="Imagen 5">
+          <div class="info">
+            <h2>Título 5</h2>
+            <p>Descripción</p>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </div>
+      <button class="flecha flecha-derecha" onclick="desplazar(1)">&#10095;</button>
+    </div>
+  </div>
+
+  <script src="ejercicio.js"></script>
+</body>
+
+</html>
